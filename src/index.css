@@ -1,0 +1,173 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: rgba(255, 255, 255, 0.87);
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+
+.got-it-button{
+  color: #376b7e;
+  border: 2px solid #376b7e;
+  border-radius: 45px;
+  padding: 8px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transform: translateX(3.4rem);
+}
+.button-container{
+  display: flex;
+
+}
+.react-chatbot-kit-chat-container {
+  width: 350px;
+}
+.react-chatbot-kit-chat-bot-message {
+  background-color: black;
+  margin-right: 40px;
+}
+.react-chatbot-kit-chat-btn-send {
+  background-color: #004e92;
+}
+
+.calendar{
+  color: black;
+}
+
+.carousel{
+  margin-bottom: 4px;
+}
+
+.slot{
+  margin: 10px;
+  border: 2px solid #376b7e;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: medium;
+  text-align: center;
+  width: 80px;
+  cursor: pointer;
+}
+
+.slot-active{
+  background-color: #376b7e;
+  color: white;
+}
+
+.slot:hover{
+  background-color: #376b7e;
+  color: white;
+}
+
+.rightButton{
+  background-color: #000428;
+  margin-right: 3rem;
+  color: #000428;
+}
+.react-multiple-carousel__arrow {
+  position: absolute;
+  outline: 0;
+  transition: all .5s;
+  border-radius: 35px;
+  z-index: 1000;
+  border: 0;
+  background: rgba(0,0,0,0.5);
+  min-width: 25px;
+  min-height: 25px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.react-multiple-carousel__arrow::before {
+  font-size: 10px;
+  color: #fff;
+  display: block;
+  font-family: revicons;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+
+
+.time{
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 14px;
+}
+
+.timeslot{
+  background-color: #fff;
+  border: 2px solid #376b7e;
+  padding: 4px;
+  margin: 2px;
+  font-size: 0.9rem;
+}
+
+.timeslot:hover{
+  background-color: #376b7e;
+  color: white;
+}
+
+.timeslot-active{
+  background-color: #376b7e;
+  color: white;
+}
+
+.timeslot-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.age-dropdown{
+  font-size: medium;
+  padding: 4px;
+  background-color: white;
+  transform: translateX(-65px);
+}
+
+.home-text{
+  font-size: 2rem;
+}
+
+.enroll-btn{
+  background-color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+  border: 4px solid #004e92
+}
+
+.counter{
+  color: black;
+  transform: translateX(-80px);
+}
+
+.final-string{
+  font-size: 2.5rem;
+  font-weight: 400;
+}
